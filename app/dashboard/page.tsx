@@ -14,7 +14,7 @@ export default async function DashboardPage() {
 
   return (
     <main className="min-h-screen px-6 py-8 lg:px-10">
-      <div className="mx-auto grid max-w-[1800px] gap-8 lg:grid-cols-[300px_1fr]">
+      <div className="mx-auto grid max-w-[1800px] gap-6 md:grid-cols-[260px_1fr] lg:gap-8 lg:grid-cols-[300px_1fr]">
         <Sidebar />
         <section className="space-y-8">
           <header className="rounded-[2rem] border border-slate-700/70 bg-slate-950/80 p-8 shadow-panel">
